@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         sort(args);
+        print(args);
     }
 
     public static void print(String[] args) {
@@ -14,8 +15,7 @@ public class Main {
         }
     }
 
-    public static void sort(String[] args){
+    public static void sort(String[] args) {
         Arrays.sort(args);
-        print(args);
     }
 }
